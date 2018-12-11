@@ -201,9 +201,35 @@
   .footer .left_contact {
     display: inline-block; }
     .footer .left_contact p {
+      display: flex;
+      align-items: center;
       padding: 10px 0; }
     .footer .left_contact .contact_title {
       font-size: 17px; }
+    .footer .left_contact .address_svg {
+      display: inline-block;
+      width: 10px;
+      height: 12px;
+      background-image: url("../images/address.png");
+      background-repeat: no-repeat;
+      background-size: 10px 12px;
+      background-position: center; }
+    .footer .left_contact .phone_svg {
+      display: inline-block;
+      width: 10px;
+      height: 12px;
+      background-image: url("../images/mobile.png");
+      background-repeat: no-repeat;
+      background-size: 10px 12px;
+      background-position: center; }
+    .footer .left_contact .mail_svg {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background-image: url("../images/mail.png");
+      background-repeat: no-repeat;
+      background-size: 12px 12px;
+      background-position: center; }
   .footer .line {
     display: inline-block;
     width: 2px;
@@ -213,12 +239,31 @@
     display: inline-block; }
     .footer .right_code span {
       display: inline-block;
-      width: 110px;
-      height: 110px;
-      background-color: #fff; }
+      width: 124px;
+      height: 124px; }
       .footer .right_code span:first-child {
         position: relative;
         right: 60px; }
+    .footer .right_code .appCode {
+      position: relative;
+      background-image: url("../images/APP.png");
+      background-repeat: no-repeat;
+      background-size: 110px 110px;
+      background-position: center top; }
+      .footer .right_code .appCode:after {
+        content: "“宝在米家”下载二维码";
+        position: absolute;
+        bottom: -10px; }
+    .footer .right_code .weixinCode {
+      position: relative;
+      background-image: url("../images/weixin.png");
+      background-repeat: no-repeat;
+      background-size: 110px 110px;
+      background-position: center top; }
+      .footer .right_code .weixinCode:after {
+        content: "扫描关注“霍格教育”微信公众号";
+        position: absolute;
+        bottom: -20px; }
 
 .footer_bottom {
   text-align: center;

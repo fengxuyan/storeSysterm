@@ -3,6 +3,7 @@
 
   position: relative;
 }
+
 //::-webkit-scrollbar {display: none;}
 .banner-box {
   margin: 0 auto;
@@ -94,8 +95,9 @@
   &.isScroll {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
+
     a {
-      color: #000 ;
+      color: #000;
     }
 
     .login_btn {
@@ -118,9 +120,11 @@
 .nav-link.active {
   color: #024190 !important;
 }
+
 .nav-link {
   padding: 0;
 }
+
 .content {
   overflow: hidden;
 
@@ -131,7 +135,7 @@
     color: #061D43;
 
 
-    padding-top:100px;
+    padding-top: 100px;
     //margin-top:-100px;
 
 
@@ -167,6 +171,7 @@
         span {
           display: block;
         }
+
         .fun_icon {
           display: inline-block;
           width: 80px;
@@ -180,6 +185,7 @@
           color: #333;
           font-size: 18px;
         }
+
         .fun_intro {
           color: #383838;
           font-size: 14px;
@@ -192,10 +198,12 @@
       //padding-top:100px;
       //margin-top:-100px;
     }
+
     &.chosen-content {
       background-color: #F4F6F9;
 
     }
+
     .chosen_content {
       width: 60%;
       margin: 0 auto;
@@ -210,6 +218,7 @@
         .chosen_item {
           margin-bottom: 50px;
           background-color: #fff;
+
           .chosen_pic {
             display: inline-block;
             width: 100%;
@@ -218,6 +227,7 @@
             background-repeat: no-repeat;
             background-size: cover;
           }
+
           .chosen_icon {
             display: block;
             margin: 20px 0 20px 20px;
@@ -227,6 +237,7 @@
             background-repeat: no-repeat;
             background-size: 100% 100%;
           }
+
           .chosen_intro {
             display: block;
             padding: 20px;
@@ -243,7 +254,8 @@
       margin: 0 auto;
       margin-top: 70px;
       width: 60%;
-      .partner_box{
+
+      .partner_box {
         display: inline-block;
         width: 188px;
         height: 80px;
@@ -257,11 +269,13 @@
 
         color: #333;
         font-size: 14px;
+
         .partner_item {
           display: flex;
           align-items: center;
           justify-content: center;
         }
+
         .partner_icon {
           display: inline-block;
           width: 40px;
@@ -297,7 +311,6 @@
 }
 
 
-
 /*底部导航栏*/
 
 .footer {
@@ -315,15 +328,56 @@
 
   color: #fff;
   font-size: 12px;
+
   .left_contact {
     display: inline-block;
-    p {    padding: 10px 0;}
+
+    p {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+    }
+
     .contact_title {
 
       font-size: 17px;
     }
 
+    .address_svg {
+      display: inline-block;
+      width: 10px;
+      height: 12px;
+
+      background-image: url("../images/address.png");
+      background-repeat: no-repeat;
+      background-size: 10px 12px;
+      background-position: center;
+    }
+
+    .phone_svg {
+      display: inline-block;
+      width: 10px;
+      height: 12px;
+
+      background-image: url("../images/mobile.png");
+      background-repeat: no-repeat;
+      background-size: 10px 12px;
+      background-position: center;
+    }
+
+    .mail_svg {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+
+      background-image: url("../images/mail.png");
+      background-repeat: no-repeat;
+      background-size: 12px 12px;
+      background-position: center;
+    }
+
   }
+
   .line {
 
     display: inline-block;
@@ -332,22 +386,50 @@
     background-color: #606368;
 
   }
+
   .right_code {
     display: inline-block;
 
     span {
       display: inline-block;
 
-      width: 110px;
-      height: 110px;
+      width: 124px;
+      height: 124px;
 
-      background-color: #fff;
       &:first-child {
         position: relative;
         right: 60px;
       }
     }
 
+    .appCode {
+      position: relative;
+      background-image: url("../images/APP.png");
+      background-repeat: no-repeat;
+      background-size: 110px 110px;
+      background-position: center top;
+
+      &:after {
+        content: "“宝在米家”下载二维码";
+        position: absolute;
+        bottom: -10px;
+      }
+    }
+
+    .weixinCode {
+      position: relative;
+
+      background-image: url("../images/weixin.png");
+      background-repeat: no-repeat;
+      background-size: 110px 110px;
+      background-position: center top;
+
+      &:after {
+        content: "扫描关注“霍格教育”微信公众号";
+        position: absolute;
+        bottom: -20px;
+      }
+    }
   }
 
 }

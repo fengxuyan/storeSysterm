@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../src/css/storeIndex.css">
 
 </head>
-<body  data-spy="scroll" data-target="#navBar" data-offset="90" style="position: relative">
+<body data-spy="scroll" data-target="#navBar" data-offset="90" style="position: relative">
 
 <div class="main">
     <!--头部轮播图-->
@@ -32,11 +32,11 @@
 
         <ul class="nav-box ">
             <li class="nav-item col-lg-2"><a class="nav-link active" href="#">首页</a></li>
-            <li class="nav-item col-lg-2"><a  class="nav-link" href="#case">解决案例</a></li>
-            <li class="nav-item col-lg-2"><a  class="nav-link" href="#function">功能介绍</a></li>
-            <li class="nav-item col-lg-2"><a  class="nav-link" href="#chosen">精选案例</a></li>
-            <li class="nav-item col-lg-2"><a  class="nav-link" href="#partner">合作伙伴</a></li>
-            <li class="nav-item col-lg-2"><a  class="nav-link" href="#more_teamwork">更多合作</a></li>
+            <li class="nav-item col-lg-2"><a class="nav-link" href="#case">解决案例</a></li>
+            <li class="nav-item col-lg-2"><a class="nav-link" href="#function">功能介绍</a></li>
+            <li class="nav-item col-lg-2"><a class="nav-link" href="#chosen">精选案例</a></li>
+            <li class="nav-item col-lg-2"><a class="nav-link" href="#partner">合作伙伴</a></li>
+            <li class="nav-item col-lg-2"><a class="nav-link" href="#more_teamwork">更多合作</a></li>
         </ul>
 
         <div class="btn-box">
@@ -234,12 +234,15 @@
 
         <div class="left_contact">
             <p class="contact_title">联系我们</p>
-            <p><i></i>江苏省南京市江宁区万达广场B座</p>
-            <p><i></i>0523-86654321</p>
-            <p><i></i>njhg@huogeedu.com</p>
+            <p><i class="address_svg"></i>&nbsp;&nbsp;江苏省南京市江宁区万达广场B座</p>
+            <p><i class="phone_svg"></i>&nbsp;&nbsp;0523-86654321</p>
+            <p><i class="mail_svg"></i>&nbsp;&nbsp;njhg@huogeedu.com</p>
         </div>
         <div class="line"></div>
-        <div class="right_code"><span></span><span></span></div>
+        <div class="right_code">
+            <span class="appCode"></span>
+            <span class="weixinCode"></span>
+        </div>
     </div>
 
     <div class="footer_bottom">
@@ -268,7 +271,7 @@
             // 如果需要分页器
             pagination: {
                 el: '.swiper-pagination',
-                paginationClickable :true,
+                paginationClickable: true,
 
             },
             // paginationClickable :true,
