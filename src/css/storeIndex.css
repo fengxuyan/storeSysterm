@@ -42,13 +42,14 @@
   font-size: 14px; }
   .btn-box .login_btn {
     background-color: transparent;
-    color: #fff;
-    border: 1px solid #2C89FF; }
+    color: #261450;
+    border: 1px solid #261450; }
   .btn-box .register_btn {
     border: 0;
-    background-color: #2C89FF;
+    background-color: #261450;
     color: #fff; }
   .btn-box button {
+    outline: none;
     width: 70px;
     height: 30px; }
 
@@ -64,7 +65,7 @@
     .nav-container.isScroll a {
       color: #000; }
     .nav-container.isScroll .login_btn {
-      color: #000; }
+      color: #261450; }
   .nav-container .nav-item.scrollClicked a {
     color: #024190; }
 
@@ -74,23 +75,26 @@
 .nav-link {
   padding: 0; }
 
-.content .headline {
-  text-align: center;
-  font-size: 35px;
-  color: #061D43;
-  margin: 100px 0; }
-  .content .headline .txt {
-    position: relative; }
-  .content .headline .txt:after {
-    content: '';
-    position: absolute;
-    display: inline-block;
-    bottom: -20px;
-    left: 28%;
-    width: 60px;
-    height: 10px;
-    background-color: #0050AF;
-    border-radius: 5px; }
+.content {
+  overflow: hidden; }
+  .content .headline {
+    text-align: center;
+    font-size: 35px;
+    color: #061D43;
+    padding-top: 100px;
+    margin-top: -100px; }
+    .content .headline .txt {
+      position: relative; }
+    .content .headline .txt:after {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      bottom: -20px;
+      left: 28%;
+      width: 60px;
+      height: 10px;
+      background-color: #0050AF;
+      border-radius: 5px; }
 
 /*轮播图分页器样式*/
 .swiper-pagination-bullet-active {
@@ -100,5 +104,45 @@
   width: 50px;
   height: 3px;
   border-radius: 2px; }
+
+/*底部导航栏*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 254px;
+  background-color: #0B1E32;
+  color: #fff;
+  font-size: 12px; }
+  .footer .left_contact {
+    display: inline-block; }
+    .footer .left_contact p {
+      padding: 10px 0; }
+    .footer .left_contact .contact_title {
+      font-size: 17px; }
+  .footer .line {
+    display: inline-block;
+    width: 2px;
+    height: 134px;
+    background-color: #606368; }
+  .footer .right_code {
+    display: inline-block; }
+    .footer .right_code span {
+      display: inline-block;
+      width: 110px;
+      height: 110px;
+      background-color: #fff; }
+      .footer .right_code span:first-child {
+        position: relative;
+        right: 60px; }
+
+.footer_bottom {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-color: #051423;
+  font-size: 14px;
+  color: #fff; }
 
 /*# sourceMappingURL=storeIndex.css.map */

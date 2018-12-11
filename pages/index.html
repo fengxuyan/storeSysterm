@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../src/css/storeIndex.css">
 
 </head>
-<body  data-spy="scroll" data-target="#navBar" data-offset="1" style="position: relative">
+<body  data-spy="scroll" data-target="#navBar" data-offset="90" style="position: relative">
 
 <div class="main">
     <!--头部轮播图-->
@@ -31,7 +31,7 @@
         <span class="logo">LOGO</span>
 
         <ul class="nav-box ">
-            <li class="nav-item col-lg-2"><a class="nav-link" href="#">首页</a></li>
+            <li class="nav-item col-lg-2"><a class="nav-link active" href="#">首页</a></li>
             <li class="nav-item col-lg-2"><a  class="nav-link" href="#case">解决案例</a></li>
             <li class="nav-item col-lg-2"><a  class="nav-link" href="#function">功能介绍</a></li>
             <li class="nav-item col-lg-2"><a  class="nav-link" href="#chosen">精选案例</a></li>
@@ -43,10 +43,9 @@
             <button class="login_btn">登录</button>
             <button class="register_btn">注册</button>
         </div>
-
     </div>
-    <div class="content" style="height: 800px;">
-        <div class="headline" id="case">
+    <div class="content">
+        <div class="headline" id="case" style="height: 300px;    margin-top: 70px;">
             <span class="txt">解决方案</span>
         </div>
         <div class="headline function" id="function" style="height: 500px">
@@ -55,16 +54,31 @@
         </div>
         <div class="headline" id="chosen" style="height: 300px;">
             <span class="txt">精选案例</span>
-
         </div>
-        <div class="headline" id="partner">
+        <div class="headline" id="partner" style="height: 500px">
             <span class="txt">合作伙伴</span>
-
         </div>
-        <div class="headline" id="more_teamwork">
+        <div class="headline" id="more_teamwork" style="height: 500px">
             <span class="txt">更多合作</span>
-
         </div>
+    </div>
+
+
+    <div class="footer">
+
+        <div class="left_contact">
+            <p class="contact_title">联系我们</p>
+            <p><i></i>江苏省南京市江宁区万达广场B座</p>
+            <p><i></i>0523-86654321</p>
+            <p><i></i>njhg@huogeedu.com</p>
+        </div>
+        <div class="line"></div>
+        <div class="right_code"><span></span><span></span></div>
+    </div>
+
+    <div class="footer_bottom">
+
+        <p>版权所有 南京霍格教育信息科技有限公司</p>
     </div>
 </div>
 <script src="../src/js/lib/jquery-2.1.4.js"></script>
@@ -103,19 +117,10 @@
             } else {
                 $(".nav-container").removeClass('isScroll')
                 $(".nav-item").removeClass('scrollClicked');
+                $('.nav-item:first-child a').addClass('active')
             }
         })
     })
-
-
-    /*导航栏菜单点击颜色变化事件*/
-    // $(".nav-item").on('click', function (e) {
-    //     if ($(".nav-container.isScroll") && $(".nav-container.isScroll").length > 0) {
-    //         $(this).addClass('scrollClicked');
-    //     }
-    //     $(this).addClass('scrollClicked');
-    //     $(this).siblings().removeClass('scrollClicked');
-    // })
 
 </script>
 </body>
