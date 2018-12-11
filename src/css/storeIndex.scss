@@ -29,7 +29,7 @@
   top: 0;
   left: 25%;
   z-index: 1;
-  min-width: 660px;
+  min-width: 800px;
 
   .nav-item {
 
@@ -42,7 +42,10 @@
     text-align: center;
     font-size: 14px;
 
+    width: 16%;
+
     a {
+      //color: #000;
       color: #fff;
     }
   }
@@ -104,9 +107,16 @@
       }
     }
   }
+
+
 }
 
-
+.nav-link.active {
+  color: #024190 !important;
+}
+.nav-link {
+  padding: 0;
+}
 .content {
   .headline {
     text-align: center;

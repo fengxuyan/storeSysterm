@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>门店管理系统</title>
-    <link rel="stylesheet" href="../src/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="../src/css/lib/reset.css">
     <link rel="stylesheet" href="../src/css/lib/swiper.min.css">
     <link rel="stylesheet" href="../src/css/storeIndex.css">
 
 </head>
-<body>
+<body  data-spy="scroll" data-target="#navBar" data-offset="1" style="position: relative">
 
 <div class="main">
     <!--头部轮播图-->
@@ -24,20 +25,17 @@
         </div>
     </div>
 
-
-    <div class="nav-container">
+    <div class="nav-container" id="navBar">
         <!--头部导航栏-->
-
-
         <span class="logo">LOGO</span>
 
         <ul class="nav-box ">
-            <li class="nav-item col-lg-2"><a href="#index">首页</a></li>
-            <li class="nav-item col-lg-2"><a href="#case">解决案例</a></li>
-            <li class="nav-item col-lg-2"><a href="#function">功能介绍</a></li>
-            <li class="nav-item col-lg-2"><a href="#chosen">精选案例</a></li>
-            <li class="nav-item col-lg-2"><a href="#partner">合作伙伴</a></li>
-            <li class="nav-item col-lg-2"><a href="#more_teamwork">更多合作</a></li>
+            <li class="nav-item col-lg-2"><a class="nav-link" href="#">首页</a></li>
+            <li class="nav-item col-lg-2"><a  class="nav-link" href="#case">解决案例</a></li>
+            <li class="nav-item col-lg-2"><a  class="nav-link" href="#function">功能介绍</a></li>
+            <li class="nav-item col-lg-2"><a  class="nav-link" href="#chosen">精选案例</a></li>
+            <li class="nav-item col-lg-2"><a  class="nav-link" href="#partner">合作伙伴</a></li>
+            <li class="nav-item col-lg-2"><a  class="nav-link" href="#more_teamwork">更多合作</a></li>
         </ul>
 
         <div class="btn-box">
@@ -46,15 +44,15 @@
         </div>
 
     </div>
-    <div class="content">
+    <div class="content" style="height: 800px;">
         <div class="headline" id="case">
             <span class="txt">解决方案</span>
         </div>
-        <div class="headline function" id="function">
+        <div class="headline function" id="function" style="height: 500px">
             <span class="txt">功能介绍</span>
 
         </div>
-        <div class="headline" id="chosen">
+        <div class="headline" id="chosen" style="height: 300px;">
             <span class="txt">精选案例</span>
 
         </div>
@@ -97,7 +95,7 @@
 
         /*监测鼠标滚动*/
         $(window).scroll(function () {
-
+            //
             if ($(this).scrollTop() > 0) {
                 $(".nav-container").addClass('isScroll')
 
@@ -110,13 +108,13 @@
 
 
     /*导航栏菜单点击颜色变化事件*/
-    $(".nav-item").on('click', function (e) {
-        if ($(".nav-container.isScroll") && $(".nav-container.isScroll").length > 0) {
-            $(this).addClass('scrollClicked');
-        }
-        $(this).addClass('scrollClicked');
-        $(this).siblings().removeClass('scrollClicked');
-    })
+    // $(".nav-item").on('click', function (e) {
+    //     if ($(".nav-container.isScroll") && $(".nav-container.isScroll").length > 0) {
+    //         $(this).addClass('scrollClicked');
+    //     }
+    //     $(this).addClass('scrollClicked');
+    //     $(this).siblings().removeClass('scrollClicked');
+    // })
 
 </script>
 </body>

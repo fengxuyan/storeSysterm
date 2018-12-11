@@ -20,7 +20,7 @@
   top: 0;
   left: 25%;
   z-index: 1;
-  min-width: 660px; }
+  min-width: 800px; }
   .nav-box .nav-item {
     display: inline-block;
     float: left;
@@ -28,7 +28,8 @@
     height: 70px;
     line-height: 70px;
     text-align: center;
-    font-size: 14px; }
+    font-size: 14px;
+    width: 16%; }
     .nav-box .nav-item a {
       color: #fff; }
 
@@ -66,6 +67,12 @@
       color: #000; }
   .nav-container .nav-item.scrollClicked a {
     color: #024190; }
+
+.nav-link.active {
+  color: #024190 !important; }
+
+.nav-link {
+  padding: 0; }
 
 .content .headline {
   text-align: center;
