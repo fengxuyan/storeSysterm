@@ -1,0 +1,149 @@
+
+.main {
+
+  position: relative;
+}
+
+.banner-box {
+  margin: 0 auto;
+  //width: 1920px;
+  //height: 670px;
+
+  img {
+    width: 100%;
+    height: 100%;
+
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 10%;
+  z-index: 1;
+  font-size: 30px;
+}
+
+.nav-box {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  z-index: 1;
+  min-width: 660px;
+
+  .nav-item {
+
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 14px;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.btn-box {
+
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 10%;
+  z-index: 1;
+  font-size: 14px;
+
+  .login_btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #2C89FF;
+  }
+
+  .register_btn {
+    border: 0;
+    background-color: #2C89FF;
+    color: #fff;
+
+  }
+
+  button {
+
+    width: 70px;
+    height: 30px;
+  }
+}
+
+.nav-container {
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+
+  &.isScroll {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    a {
+      color: #000 ;
+    }
+
+    .login_btn {
+      color: #000;
+    }
+  }
+
+  .nav-item {
+    &.scrollClicked {
+      a {
+        color: #024190;
+      }
+    }
+  }
+}
+
+
+.content {
+  .headline {
+    text-align: center;
+    font-size: 35px;
+    color: #061D43;
+    margin: 100px 0;
+    //margin-top: 150px;
+
+    .txt {
+      position: relative;
+    }
+
+    .txt:after {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      bottom: -20px;
+      left: 28%;
+      width: 60px;
+      height: 10px;
+      background-color: #0050AF;
+      border-radius: 5px;
+    }
+  }
+
+}
+
+
+/*轮播图分页器样式*/
+
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-pagination-bullet {
+
+  width: 50px;
+  height: 3px;
+  border-radius: 2px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>门店管理系统</title>
+    <link rel="stylesheet" href="../src/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/css/lib/reset.css">
+    <link rel="stylesheet" href="../src/css/lib/swiper.min.css">
+    <link rel="stylesheet" href="../src/css/storeIndex.css">
+
+</head>
+<body>
+
+<div class="main">
+    <!--头部轮播图-->
+    <div class="banner-box">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../src/images/banner-1.png"></div>
+                <div class="swiper-slide"><img src="../src/images/banner-2.png"></div>
+                <div class="swiper-slide"><img src="../src/images/banner-3.png"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+    <div class="nav-container">
+        <!--头部导航栏-->
+
+
+        <span class="logo">LOGO</span>
+
+        <ul class="nav-box ">
+            <li class="nav-item col-lg-2"><a href="#index">首页</a></li>
+            <li class="nav-item col-lg-2"><a href="#case">解决案例</a></li>
+            <li class="nav-item col-lg-2"><a href="#function">功能介绍</a></li>
+            <li class="nav-item col-lg-2"><a href="#chosen">精选案例</a></li>
+            <li class="nav-item col-lg-2"><a href="#partner">合作伙伴</a></li>
+            <li class="nav-item col-lg-2"><a href="#more_teamwork">更多合作</a></li>
+        </ul>
+
+        <div class="btn-box">
+            <button class="login_btn">登录</button>
+            <button class="register_btn">注册</button>
+        </div>
+
+    </div>
+    <div class="content">
+        <div class="headline" id="case">
+            <span class="txt">解决方案</span>
+        </div>
+        <div class="headline function" id="function">
+            <span class="txt">功能介绍</span>
+
+        </div>
+        <div class="headline" id="chosen">
+            <span class="txt">精选案例</span>
+
+        </div>
+        <div class="headline" id="partner">
+            <span class="txt">合作伙伴</span>
+
+        </div>
+        <div class="headline" id="more_teamwork">
+            <span class="txt">更多合作</span>
+
+        </div>
+    </div>
+</div>
+<script src="../src/js/lib/jquery-2.1.4.js"></script>
+<script src="../src/js/lib/bootstrap.min.js"></script>
+<script src="../src/js/lib/swiper.min.js"></script>
+
+
+<script src="../src/js/storeIndex.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        /*轮播图*/
+        var mySwiper = new Swiper('.swiper-container', {
+            autoplay: {
+                delay: 3000,
+                stopOnLast: false,
+                disableOnInteraction: true,
+            },
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                paginationClickable :true,
+
+            },
+            // paginationClickable :true,
+        })
+
+        /*监测鼠标滚动*/
+        $(window).scroll(function () {
+
+            if ($(this).scrollTop() > 0) {
+                $(".nav-container").addClass('isScroll')
+
+            } else {
+                $(".nav-container").removeClass('isScroll')
+                $(".nav-item").removeClass('scrollClicked');
+            }
+        })
+    })
+
+
+    /*导航栏菜单点击颜色变化事件*/
+    $(".nav-item").on('click', function (e) {
+        if ($(".nav-container.isScroll") && $(".nav-container.isScroll").length > 0) {
+            $(this).addClass('scrollClicked');
+        }
+        $(this).addClass('scrollClicked');
+        $(this).siblings().removeClass('scrollClicked');
+    })
+
+</script>
+</body>
+</html>
