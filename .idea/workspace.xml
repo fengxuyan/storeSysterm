@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b522d424-497e-4282-a540-b902f3a5ecdf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/APP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/address.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/weixin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/storeSystem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/storeIndex.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/storeIndex.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/storeIndex.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/storeIndex.css.map" afterDir="false" />
@@ -18,28 +29,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="43" column="52" lean-forward="true" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+            <state relative-caret-position="375">
+              <caret line="176" column="49" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/storeIndex.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="409">
+              <caret line="268" column="41" selection-start-line="268" selection-start-column="41" selection-end-line="268" selection-end-column="41" />
+              <folding>
+                <element signature="e#1994#2356#0" />
+                <element signature="e#2652#2666#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,15 +102,15 @@
         <option value="$PROJECT_DIR$/src/css/lib/reset.css" />
         <option value="$PROJECT_DIR$/pages/scroll.html" />
         <option value="$PROJECT_DIR$/src/js/lib/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/src/css/storeIndex.scss" />
         <option value="$PROJECT_DIR$/pages/index.html" />
+        <option value="$PROJECT_DIR$/src/css/storeIndex.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="710" />
-    <option name="y" value="42" />
-    <option name="width" value="1071" />
+    <option name="x" value="604" />
+    <option name="y" value="98" />
+    <option name="width" value="1188" />
     <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -141,6 +153,12 @@
               <item name="storeSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="storeSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="storeSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="storeSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -171,6 +189,7 @@
       <recent name="$PROJECT_DIR$/src/css/lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/css" />
       <recent name="$PROJECT_DIR$/src/js" />
     </key>
@@ -197,20 +216,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544410561839</updated>
-      <workItem from="1544410563959" duration="27201000" />
+      <workItem from="1544410563959" duration="32404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27201000" />
+    <option name="totallyTimeSpent" value="32404000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="710" y="42" width="1071" height="807" extended-state="0" />
+    <frame x="604" y="98" width="1188" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993007" visible="true" weight="0.07619048" />
-      <window_info id="Structure" order="1" sideWeight="0.5006993" side_tool="true" visible="true" weight="0.07619048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993007" visible="true" weight="0.16109683" />
+      <window_info id="Structure" order="1" sideWeight="0.5006993" side_tool="true" visible="true" weight="0.16109683" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -265,24 +284,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/storeIndex.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="43" column="52" lean-forward="true" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+        <state relative-caret-position="375">
+          <caret line="176" column="49" selection-start-line="176" selection-start-column="37" selection-end-line="176" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/storeIndex.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="268" column="41" selection-start-line="268" selection-start-column="41" selection-end-line="268" selection-end-column="41" />
+          <folding>
+            <element signature="e#1994#2356#0" />
+            <element signature="e#2652#2666#0" />
           </folding>
         </state>
       </provider>

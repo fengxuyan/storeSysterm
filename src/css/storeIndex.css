@@ -43,7 +43,8 @@
   .btn-box .login_btn {
     background-color: transparent;
     color: #261450;
-    border: 1px solid #261450; }
+    border: 1px solid #261450;
+    margin-right: 20px; }
   .btn-box .register_btn {
     border: 0;
     background-color: #261450;
@@ -65,7 +66,8 @@
     .nav-container.isScroll a {
       color: #000; }
     .nav-container.isScroll .login_btn {
-      color: #261450; }
+      color: #261450;
+      margin-right: 20px; }
   .nav-container .nav-item.scrollClicked a {
     color: #024190; }
 
@@ -81,8 +83,7 @@
     text-align: center;
     font-size: 35px;
     color: #061D43;
-    padding-top: 100px;
-    margin-top: -100px; }
+    padding-top: 100px; }
     .content .headline .txt {
       position: relative; }
     .content .headline .txt:after {
@@ -95,6 +96,88 @@
       height: 10px;
       background-color: #0050AF;
       border-radius: 5px; }
+    .content .headline .fun_content {
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 60px; }
+      .content .headline .fun_content .fun_box {
+        display: inline-block;
+        float: left;
+        margin-bottom: 70px; }
+        .content .headline .fun_content .fun_box span {
+          display: block; }
+        .content .headline .fun_content .fun_box .fun_icon {
+          display: inline-block;
+          width: 80px;
+          height: 80px;
+          background-image: url("../images/hexagon.png");
+          background-size: 100% 100%; }
+        .content .headline .fun_content .fun_box .fun_title {
+          padding: 20px 0;
+          color: #333;
+          font-size: 18px; }
+        .content .headline .fun_content .fun_box .fun_intro {
+          color: #383838;
+          font-size: 14px; }
+    .content .headline.chosen-content {
+      background-color: #F4F6F9; }
+    .content .headline .chosen_content {
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 70px;
+      color: #061D43;
+      font-size: 12px; }
+      .content .headline .chosen_content .chosen_box {
+        background-color: #F4F6F9; }
+        .content .headline .chosen_content .chosen_box .chosen_item {
+          margin-bottom: 50px;
+          background-color: #fff; }
+          .content .headline .chosen_content .chosen_box .chosen_item .chosen_pic {
+            display: inline-block;
+            width: 100%;
+            height: 150px;
+            background-image: url("../images/pic.png");
+            background-repeat: no-repeat;
+            background-size: cover; }
+          .content .headline .chosen_content .chosen_box .chosen_item .chosen_icon {
+            display: block;
+            margin: 20px 0 20px 20px;
+            width: 40px;
+            height: 44px;
+            background-image: url("../images/brandLogo.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%; }
+          .content .headline .chosen_content .chosen_box .chosen_item .chosen_intro {
+            display: block;
+            padding: 20px; }
+    .content .headline .partner_content {
+      margin: 0 auto;
+      margin-top: 70px;
+      width: 60%; }
+      .content .headline .partner_content .partner_box {
+        display: inline-block;
+        width: 188px;
+        height: 80px;
+        line-height: 80px;
+        background-image: url("../images/partner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 40px;
+        color: #333;
+        font-size: 14px; }
+        .content .headline .partner_content .partner_box .partner_item {
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+        .content .headline .partner_content .partner_box .partner_icon {
+          display: inline-block;
+          width: 40px;
+          height: 44px;
+          background-image: url("../images/brandLogo.png");
+          background-repeat: no-repeat;
+          background-size: cover; }
+        .content .headline .partner_content .partner_box .partner_name {
+          padding-left: 10px; }
 
 /*轮播图分页器样式*/
 .swiper-pagination-bullet-active {

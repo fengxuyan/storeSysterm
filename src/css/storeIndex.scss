@@ -3,7 +3,7 @@
 
   position: relative;
 }
-
+//::-webkit-scrollbar {display: none;}
 .banner-box {
   margin: 0 auto;
   //width: 1920px;
@@ -64,6 +64,8 @@
     background-color: transparent;
     color: #261450;
     border: 1px solid #261450;
+    margin-right: 20px;
+
   }
 
   .register_btn {
@@ -98,6 +100,7 @@
 
     .login_btn {
       color: #261450;
+      margin-right: 20px;
     }
   }
 
@@ -129,11 +132,8 @@
 
 
     padding-top:100px;
-    margin-top:-100px;
+    //margin-top:-100px;
 
-
-    //margin: 100px 0;
-    //margin-top: 150px;
 
     .txt {
       position: relative;
@@ -149,6 +149,134 @@
       height: 10px;
       background-color: #0050AF;
       border-radius: 5px;
+    }
+
+    .fun_content {
+
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 60px;
+
+      .fun_box {
+        display: inline-block;
+        float: left;
+
+        margin-bottom: 70px;
+
+
+        span {
+          display: block;
+        }
+        .fun_icon {
+          display: inline-block;
+          width: 80px;
+          height: 80px;
+          background-image: url("../images/hexagon.png");
+          background-size: 100% 100%;
+        }
+
+        .fun_title {
+          padding: 20px 0;
+          color: #333;
+          font-size: 18px;
+        }
+        .fun_intro {
+          color: #383838;
+          font-size: 14px;
+        }
+      }
+    }
+
+
+    &.function {
+      //padding-top:100px;
+      //margin-top:-100px;
+    }
+    &.chosen-content {
+      background-color: #F4F6F9;
+
+    }
+    .chosen_content {
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 70px;
+
+      color: #061D43;
+      font-size: 12px;
+
+      .chosen_box {
+        background-color: #F4F6F9;
+
+        .chosen_item {
+          margin-bottom: 50px;
+          background-color: #fff;
+          .chosen_pic {
+            display: inline-block;
+            width: 100%;
+            height: 150px;
+            background-image: url("../images/pic.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .chosen_icon {
+            display: block;
+            margin: 20px 0 20px 20px;
+            width: 40px;
+            height: 44px;
+            background-image: url("../images/brandLogo.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+          }
+          .chosen_intro {
+            display: block;
+            padding: 20px;
+          }
+
+        }
+
+      }
+
+    }
+
+    .partner_content {
+
+      margin: 0 auto;
+      margin-top: 70px;
+      width: 60%;
+      .partner_box{
+        display: inline-block;
+        width: 188px;
+        height: 80px;
+        line-height: 80px;
+        background-image: url("../images/partner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        margin-bottom: 40px;
+
+        color: #333;
+        font-size: 14px;
+        .partner_item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .partner_icon {
+          display: inline-block;
+          width: 40px;
+          height: 44px;
+          background-image: url("../images/brandLogo.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+
+        }
+
+        .partner_name {
+          padding-left: 10px;
+
+        }
+      }
     }
   }
 
