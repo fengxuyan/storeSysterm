@@ -152,7 +152,9 @@
             background-size: 100% 100%; }
           .content .headline .chosen_content .chosen_box .chosen_item .chosen_intro {
             display: block;
-            padding: 20px; }
+            padding: 20px;
+            padding-top: 0;
+            text-align: left; }
     .content .headline .partner_content {
       margin: 0 auto;
       margin-top: 70px;
