@@ -119,6 +119,10 @@
 
 .nav-link.active {
   color: #024190 !important;
+  span {
+    padding-bottom: 22px;
+    border-bottom: 2px solid #024190
+  }
 }
 
 .nav-link {
