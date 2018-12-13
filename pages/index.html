@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>门店管理系统</title>
-    <!--<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">-->
-
     <link rel="stylesheet" href="../src/css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="../src/css/lib/reset.css">
     <link rel="stylesheet" href="../src/css/lib/swiper.min.css">
     <link rel="stylesheet" href="../src/css/storeIndex.css">
 
 </head>
-<body data-spy="scroll" data-target="#navBar" data-offset="90" style="position: relative">
+<body data-spy="scroll" data-target="#navBar" data-offset="90" style="position: relative" onhashchange="hashListener()">
 
 <div class="main">
     <!--头部轮播图-->
@@ -26,20 +24,19 @@
         </div>
     </div>
 
-    <div class="nav-container" id="navBar">
+    <div class="row nav-container " id="navBar">
         <!--头部导航栏-->
-        <span class="logo">LOGO</span>
+        <span class="logo col-lg-4 col-xs-4 col-md-4"><span>LOGO</span></span>
 
-        <ul class="nav-box ">
-            <li class="nav-item col-lg-2"><a class="nav-link active" href="#"><span>首页</span></a></li>
-            <li class="nav-item col-lg-2"><a class="nav-link" href="#case"><span>解决案例</span></a></li>
-            <li class="nav-item col-lg-2"><a class="nav-link" href="#function"><span>功能介绍</span></a></li>
-            <li class="nav-item col-lg-2"><a class="nav-link" href="#chosen"><span>精选案例</span></a></li>
-            <li class="nav-item col-lg-2"><a class="nav-link" href="#partner"><span>合作伙伴</span></a></li>
-            <li class="nav-item col-lg-2"><a class="nav-link" href="#more_teamwork"><span>更多合作</span></a></li>
+        <ul class="nav-box  col-lg-5 col-xs-5 col-md-5">
+            <li class="nav-item col-lg-2 col-xs-2 col-md-2"><a class="nav-link active" href="#"><span>首页</span></a></li><li class="nav-item col-lg-2 col-xs-2 col-md-2"><a class="nav-link" href="#case"><span>解决案例</span></a></li><li class="nav-item col-lg-2 col-xs-2 col-md-2"><a class="nav-link" href="#function"><span>功能介绍</span></a>
+            </li><li class="nav-item col-lg-2 col-xs-2 col-md-2"><a class="nav-link" href="#chosen"><span>精选案例</span></a>
+        </li><li class="nav-item col-lg-2 col-xs-2 col-md-2"><a class="nav-link" href="#partner"><span>合作伙伴</span></a>
+            </li><li class="nav-item col-lg-2 col-xs-2 col-md-2"><a class="nav-link" href="#more_teamwork"><span>更多合作</span></a>
+            </li>
         </ul>
 
-        <div class="btn-box">
+        <div class="btn-box col-lg-3 col-xs-3 col-md-3 ">
             <button class="login_btn">登录</button>
             <button class="register_btn">注册</button>
         </div>
@@ -54,7 +51,7 @@
 
 
             <ul class="fun_content row">
-                <li class="fun_box  col-lg-2">
+                <li class="fun_box  col-lg-2 col-xs-2 col-md-2">
                     <div class="fun_item">
                         <span class="fun_icon"></span>
                         <span class="fun_title">客户管理</span>
@@ -62,56 +59,56 @@
                     </div>
                 </li>
 
-                <li class="fun_box  col-lg-2">
+                <li class="fun_box  col-lg-2 col-xs-2 col-md-2">
                     <div class="fun_item">
                         <span class="fun_icon"></span>
                         <span class="fun_title">客户管理</span>
-                        <span class="fun_intro">啦啦啦啦啦啦啦啦啦啦， 啦啦啦啦啦啦啦啦啦啦 啦。</span>
+                        <span class="fun_intro">啦啦啦啦啦啦啦</span>
                     </div>
                 </li>
 
 
-                <li class="fun_box  col-lg-2">
+                <li class="fun_box  col-lg-2 col-xs-2 col-md-2">
                     <div class="fun_item">
                         <span class="fun_icon"></span>
                         <span class="fun_title">客户管理</span>
-                        <span class="fun_intro">啦啦啦啦啦啦啦啦啦啦， 啦啦啦啦啦啦啦啦啦啦 啦。</span>
+                        <span class="fun_intro">啦啦啦啦啦啦啦。</span>
                     </div>
                 </li>
 
 
-                <li class="fun_box  col-lg-2">
+                <li class="fun_box  col-lg-2 col-xs-2 col-md-2">
                     <div class="fun_item">
                         <span class="fun_icon"></span>
                         <span class="fun_title">客户管理</span>
-                        <span class="fun_intro">，啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦 啦。</span>
+                        <span class="fun_intro">，啦啦啦啦啦啦啦啦啦啦啦啦啦 啦。</span>
                     </div>
                 </li>
 
 
-                <li class="fun_box  col-lg-2">
+                <li class="fun_box  col-lg-2 col-xs-2 col-md-2">
                     <div class="fun_item">
                         <span class="fun_icon"></span>
                         <span class="fun_title">客户管理</span>
-                        <span class="fun_intro">啦啦啦啦啦啦啦啦啦啦， 啦啦啦啦啦啦啦啦啦啦 啦。</span>
+                        <span class="fun_intro">啦啦啦啦啦啦啦。</span>
                     </div>
                 </li>
 
 
-                <li class="fun_box  col-lg-2">
+                <li class="fun_box  col-lg-2 col-xs-2 col-md-2">
                     <div class="fun_item">
                         <span class="fun_icon"></span>
                         <span class="fun_title">客户管理</span>
-                        <span class="fun_intro">啦啦啦啦啦啦啦啦啦啦， 啦啦啦啦啦啦啦啦啦啦 啦。</span>
+                        <span class="fun_intro">啦啦啦啦啦啦啦啦啦啦 啦。</span>
                     </div>
                 </li>
 
 
-                <li class="fun_box  col-lg-2">
+                <li class="fun_box  col-lg-2 col-xs-2 col-md-2">
                     <div class="fun_item">
                         <span class="fun_icon"></span>
                         <span class="fun_title">客户管理</span>
-                        <span class="fun_intro">啦啦啦啦啦啦啦啦啦啦， 啦啦啦啦啦啦啦啦啦啦 啦。</span>
+                        <span class="fun_intro">啦。</span>
                     </div>
                 </li>
 
@@ -123,7 +120,7 @@
 
 
             <ul class="chosen_content row">
-                <li class="chosen_box  col-lg-3">
+                <li class="chosen_box  col-lg-3  col-xs-3 col-md-3">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon">
@@ -134,7 +131,7 @@
                     </div>
                 </li>
 
-                <li class="chosen_box  col-lg-3">
+                <li class="chosen_box  col-lg-3   col-xs-3 col-md-3">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
@@ -142,7 +139,7 @@
                     </div>
                 </li>
 
-                <li class="chosen_box  col-lg-3">
+                <li class="chosen_box  col-lg-3   col-xs-3 col-md-3">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
@@ -150,14 +147,14 @@
                     </div>
                 </li>
 
-                <li class="chosen_box  col-lg-3">
+                <li class="chosen_box  col-lg-3   col-xs-3 col-md-3">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
                         <span class="chosen_intro">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦， 啦啦啦啦啦啦啦啦啦啦 啦。</span>
                     </div>
                 </li>
-                <li class="chosen_box  col-lg-3">
+                <li class="chosen_box  col-lg-3   col-xs-3 col-md-3">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
@@ -247,6 +244,8 @@
         <p>版权所有 南京霍格教育信息科技有限公司</p>
     </div>
 </div>
+
+
 <script src="../src/js/lib/jquery-2.1.4.js"></script>
 <script src="../src/js/lib/bootstrap.min.js"></script>
 <script src="../src/js/lib/swiper.min.js"></script>
@@ -255,7 +254,16 @@
 <script src="../src/js/storeIndex.js"></script>
 
 <script>
+
+
+    function hashListener() {
+        if('' == location.hash){
+            $('.nav-item:first-child .nav-link').addClass('active')
+        }
+    }
+
     $(document).ready(function () {
+
 
         /*轮播图*/
         var mySwiper = new Swiper('.swiper-container', {
@@ -271,9 +279,6 @@
                 clickable: true,
 
             },
-
-
-            // paginationClickable :true,
         })
 
         /*监测鼠标滚动*/
@@ -289,6 +294,8 @@
             }
         })
     })
+
+
 
 </script>
 </body>

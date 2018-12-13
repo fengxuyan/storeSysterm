@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b522d424-497e-4282-a540-b902f3a5ecdf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/index_html.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pdf/pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pdf/pdf.worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/scroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/scroll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/storeIndex.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/storeIndex.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/storeIndex.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/storeIndex.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/storeIndex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/storeIndex.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -13,33 +23,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="storeSystem" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/index.html">
+        <entry file="file://$PROJECT_DIR$/src/css/storeIndex.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="262" column="28" lean-forward="true" selection-start-line="262" selection-start-column="28" selection-end-line="262" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#9231#9237#0" expanded="true" />
-                <element signature="e#9237#9243#0" expanded="true" />
-                <element signature="e#9303#9309#0" expanded="true" />
-                <element signature="e#9309#9315#0" expanded="true" />
-                <element signature="e#9372#9378#0" expanded="true" />
-                <element signature="e#9378#9384#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="254">
+              <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/storeIndex.scss">
+        <entry file="file://$PROJECT_DIR$/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="189" column="26" lean-forward="true" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
+            <state relative-caret-position="86">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,14 +53,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/scroll.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,22 +91,24 @@
         <option value="$PROJECT_DIR$/src/css/storeIndex.css" />
         <option value="$PROJECT_DIR$/src/js/storeIndex.js" />
         <option value="$PROJECT_DIR$/src/css/lib/reset.css" />
-        <option value="$PROJECT_DIR$/pages/scroll.html" />
         <option value="$PROJECT_DIR$/src/js/lib/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/src/css/storeIndex.scss" />
+        <option value="$PROJECT_DIR$/pages/test.html" />
+        <option value="$PROJECT_DIR$/pages/scroll.html" />
         <option value="$PROJECT_DIR$/pages/index.html" />
+        <option value="$PROJECT_DIR$/src/css/storeIndex.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1006" />
-    <option name="y" value="140" />
-    <option name="width" value="1188" />
+    <option name="x" value="259" />
+    <option name="y" value="23" />
+    <option name="width" value="1150" />
     <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -119,37 +123,6 @@
               <item name="storeSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="storeSystem" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storeSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storeSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,6 +162,24 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="scroll.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/storeSystem/pages/scroll.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Unnamed" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.scroll.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.scroll.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -199,31 +190,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544410561839</updated>
-      <workItem from="1544410563959" duration="36389000" />
+      <workItem from="1544410563959" duration="38579000" />
+      <workItem from="1544600444088" duration="2855000" />
+      <workItem from="1544604825253" duration="53000" />
+      <workItem from="1544604989442" duration="57000" />
+      <workItem from="1544605073210" duration="92000" />
+      <workItem from="1544605576023" duration="92000" />
+      <workItem from="1544605816246" duration="189000" />
+      <workItem from="1544606706635" duration="667000" />
+      <workItem from="1544607684712" duration="100000" />
+      <workItem from="1544608356223" duration="1256000" />
+      <workItem from="1544664462001" duration="107000" />
+      <workItem from="1544665661023" duration="34000" />
+      <workItem from="1544666933051" duration="4430000" />
+      <workItem from="1544677436804" duration="180000" />
+      <workItem from="1544685656854" duration="96000" />
+      <workItem from="1544686032828" duration="433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36389000" />
+    <option name="totallyTimeSpent" value="49220000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1006" y="140" width="1188" height="807" extended-state="0" />
+    <frame x="450" y="38" width="1150" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993007" visible="true" weight="0.17652099" />
-      <window_info id="Structure" order="1" sideWeight="0.5006993" side_tool="true" visible="true" weight="0.17652099" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47076023" visible="true" weight="0.13994686" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5292398" side_tool="true" visible="true" weight="0.13994686" />
+      <window_info id="Favorites" order="2" sideWeight="0.525" side_tool="true" weight="0.39061117" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.043356642" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -231,6 +246,46 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/css/lib/bootstrap.min.css">
@@ -253,42 +308,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+          <folding>
+            <element signature="e#184#190#0" expanded="true" />
+            <element signature="e#191#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/anda/WebstormProjects/storeSystem/pages/index.html">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/pages/index.html</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/images/banner-1.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/images/banner-2.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/images/banner-3.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/css/lib/bootstrap.min.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/js/lib/bootstrap.min.js</node>
+            <node x="" y="">$PROJECT_DIR$/pages/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/js/lib/jquery-2.1.4.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/pdf/pdf.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/css/lib/reset.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/css/storeIndex.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/js/storeIndex.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/css/lib/swiper.min.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/js/lib/swiper.min.js</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="285.0" y="249.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/scroll.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/storeIndex.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="189" column="26" lean-forward="true" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="262" column="28" lean-forward="true" selection-start-line="262" selection-start-column="28" selection-end-line="262" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9231#9237#0" expanded="true" />
-            <element signature="e#9237#9243#0" expanded="true" />
-            <element signature="e#9303#9309#0" expanded="true" />
-            <element signature="e#9309#9315#0" expanded="true" />
-            <element signature="e#9372#9378#0" expanded="true" />
-            <element signature="e#9378#9384#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="254">
+          <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
         </state>
       </provider>
     </entry>
