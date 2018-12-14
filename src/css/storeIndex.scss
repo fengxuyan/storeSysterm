@@ -6,6 +6,7 @@
 
 //::-webkit-scrollbar {display: none;}
 .banner-box {
+  min-width: 1100px;
   margin: 0 auto;
   img {
     width: 100%;
@@ -85,10 +86,11 @@
   }
 }
 .nav {
-  width: 100%;
+  min-width: 1100px;
   position: fixed;
   top: 0;
   z-index: 1;
+  margin: 0 auto;
   &.isScroll {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
@@ -395,14 +397,14 @@
   align-items: center;
   justify-content: space-around;
 
-  width: 100%;
+  min-width: 1100px;
   height: 254px;
   background-color: #0B1E32;
 
 
   color: #fff;
   font-size: 12px;
-
+  margin: 0 auto;
   .left_contact {
     display: inline-block;
 
@@ -515,6 +517,8 @@
   background-color: #051423;
   font-size: 14px;
   color: #fff;
+  min-width: 1100px;
+  margin: 0 auto;
 
 }
 
