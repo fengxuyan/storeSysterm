@@ -53,6 +53,7 @@
   position: fixed;
   top: 0;
   z-index: 1;
+  overflow: hidden;
   width: 100%;
   height: 70px;
   margin: 0; }
@@ -131,20 +132,25 @@
       color: #061D43;
       font-size: 12px; }
       .content .headline .chosen_content .chosen_box {
-        background-color: #F4F6F9; }
+        width: 245px;
+        background-color: #F4F6F9;
+        margin: 0 auto;
+        padding: 20px;
+        padding-bottom: 0; }
         .content .headline .chosen_content .chosen_box .chosen_item {
+          width: 100%;
           margin-bottom: 50px;
           background-color: #fff; }
           .content .headline .chosen_content .chosen_box .chosen_item .chosen_pic {
             display: inline-block;
             width: 100%;
             height: 150px;
-            background-image: url("../images/pic.png");
+            background-image: url(../images/pic.png);
             background-repeat: no-repeat;
-            background-size: cover; }
+            background-size: 100% 100%; }
           .content .headline .chosen_content .chosen_box .chosen_item .chosen_icon {
             display: block;
-            margin: 20px 0 20px 20px;
+            margin: 10px 0 10px 20px;
             width: 40px;
             height: 44px;
             background-image: url("../images/brandLogo.png");
@@ -158,7 +164,8 @@
     .content .headline .partner_content {
       margin: 0 auto;
       margin-top: 70px;
-      width: 60%; }
+      width: 60%;
+      text-align: center; }
       .content .headline .partner_content .partner_box {
         display: inline-block;
         width: 188px;
@@ -167,6 +174,7 @@
         background-image: url("../images/partner.png");
         background-repeat: no-repeat;
         background-size: cover;
+        margin: 0 10px;
         margin-bottom: 40px;
         color: #333;
         font-size: 14px; }
@@ -278,10 +286,10 @@
   font-size: 14px;
   color: #fff; }
 
-.col-lg-2, .col-xs-2, .col-md-2 {
+.col-lg-2, .col-xs-2, .col-lg-3, .col-md-2 {
   padding: 0; }
 
-.col-lg-8, .col-xs-8, .col-md-8 {
+.col-lg-8, .col-xs-8, .col-md-8, .col-xs-12, .col-md-6 {
   padding: 0; }
 
 .swiper-pagination {
