@@ -120,8 +120,8 @@
             <span class="txt">精选案例</span>
 
 
-            <ul class="row chosen_content ">
-                <li class="chosen_box   col-lg-3 col-md-6 col-xs 12   ">
+            <ul class="chosen_content ">
+                <li class="chosen_box ">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon">
@@ -132,7 +132,7 @@
                     </div>
                 </li>
 
-                <li class="chosen_box    col-lg-3 col-md-6 col-xs 12     ">
+                <li class="chosen_box">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
@@ -140,7 +140,7 @@
                     </div>
                 </li>
 
-                <li class="chosen_box     col-lg-3 col-md-6 col-xs 12    ">
+                <li class="chosen_box  ">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
@@ -148,7 +148,7 @@
                     </div>
                 </li>
 
-                <li class="chosen_box   col-lg-3 col-md-6 col-xs 12  ">
+                <li class="chosen_box">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
@@ -156,28 +156,28 @@
                     </div>
                 </li>
 
-                <li class="chosen_box col-lg-3 col-md-6 col-xs 12  ">
+                <li class="chosen_box">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
                         <span class="chosen_intro">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦， 啦啦啦啦啦啦啦啦啦啦 啦。</span>
                     </div>
                 </li>
-                <li class="chosen_box col-lg-3 col-md-6 col-xs 12  ">
+                <li class="chosen_box">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
                         <span class="chosen_intro">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦， 啦啦啦啦啦啦啦啦啦啦 啦。</span>
                     </div>
                 </li>
-                <li class="chosen_box col-lg-3 col-md-6 col-xs 12  ">
+                <li class="chosen_box">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
                         <span class="chosen_intro">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦， 啦啦啦啦啦啦啦啦啦啦 啦。</span>
                     </div>
                 </li>
-                <li class="chosen_box col-lg-3 col-md-6 col-xs 12  ">
+                <li class="chosen_box">
                     <div class="chosen_item">
                         <span class="chosen_pic"></span>
                         <span class="chosen_icon"></span>
@@ -286,7 +286,9 @@
     }
 
     $(document).ready(function () {
-
+        $('.nav-item:first-child').on('click',function (e) {
+            $(this).addClass('active')
+        })
 
         /*轮播图*/
         var mySwiper = new Swiper('.swiper-container', {

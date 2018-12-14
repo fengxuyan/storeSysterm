@@ -208,14 +208,17 @@
     }
 
     .chosen_content {
-      width: 60%;
+      width: 1200px;
       margin: 0 auto;
       margin-top: 70px;
-
+      //overflow: hidden;
       color: #061D43;
       font-size: 12px;
 
       .chosen_box {
+        display: inline-block;
+        //float: left;
+
         width: 245px;
         background-color: #F4F6F9;
         margin: 0 auto;

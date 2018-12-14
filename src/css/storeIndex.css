@@ -126,12 +126,13 @@
     .content .headline.chosen-content {
       background-color: #F4F6F9; }
     .content .headline .chosen_content {
-      width: 60%;
+      width: 1200px;
       margin: 0 auto;
       margin-top: 70px;
       color: #061D43;
       font-size: 12px; }
       .content .headline .chosen_content .chosen_box {
+        display: inline-block;
         width: 245px;
         background-color: #F4F6F9;
         margin: 0 auto;
