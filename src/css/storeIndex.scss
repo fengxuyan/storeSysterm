@@ -161,7 +161,11 @@
 
 .content {
   overflow: hidden;
+  .chosen-wrapper {
+    width: 100%;
+    background-color: #F4F6F9;
 
+  }
 
   .headline {
     text-align: center;
@@ -257,10 +261,10 @@
     }
 
     &.chosen-content {
-      background-color: #F4F6F9;
 
-      width: 100%;
+      min-width: 1100px;
     }
+
 
     .chosen_content {
       width: 1100px;

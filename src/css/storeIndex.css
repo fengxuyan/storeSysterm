@@ -107,6 +107,9 @@
 
 .content {
   overflow: hidden; }
+  .content .chosen-wrapper {
+    width: 100%;
+    background-color: #F4F6F9; }
   .content .headline {
     text-align: center;
     font-size: 35px;
@@ -164,8 +167,7 @@
           font-size: 14px;
           line-height: 21px; }
     .content .headline.chosen-content {
-      background-color: #F4F6F9;
-      width: 100%; }
+      min-width: 1100px; }
     .content .headline .chosen_content {
       width: 1100px;
       margin: 0 auto;
