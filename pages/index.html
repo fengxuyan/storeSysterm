@@ -279,11 +279,19 @@
 <script src="../src/js/storeIndex.js"></script>
 
 <script>
+    window.onresize=function(){
+        changeWidth();
 
-    $(".banner-box").css("width" ,document.body.clientWidth);
-    $(".nav").css({"width" :document.body.clientWidth,"margin":"0 auto"});
-    $(".footer").css("width" ,document.body.clientWidth);
-    $(".footer_bottom").css("width" ,document.body.clientWidth);
+    }
+
+    function changeWidth(){
+        $(".banner-box").css("width" ,document.body.clientWidth);
+        $(".nav").css({"width" :document.body.clientWidth,"margin":"0 auto"});
+        $(".footer").css("width" ,document.body.clientWidth);
+        $(".footer_bottom").css("width" ,document.body.clientWidth);
+    }
+
+
 
     function hashListener() {
         if('' == location.hash){
@@ -291,7 +299,9 @@
         }
     }
 
+
     $(document).ready(function () {
+        changeWidth()
         $('.nav-item:first-child').on('click',function (e) {
             $(this).addClass('active')
         })
